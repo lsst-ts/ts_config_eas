@@ -1,2 +1,2 @@
 # Labels for recommended settings; a dict of label: config_file
-test: homeoffice_pandemic_test.yaml
+test: initial_test_config.yaml
