@@ -28,10 +28,3 @@ from lsst.ts import salobj
 class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
     def setUp(self):
         self.config_package_root = pathlib.Path(__file__).parents[1]
-
-    def test_AdamSensors(self):
-        self.check_standard_config_files(
-            sal_name="AdamSensors",
-            module_name="lsst.ts.adamSensors",
-            config_package_root=self.config_package_root,
-        )

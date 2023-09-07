@@ -1,2 +1,0 @@
-# Labels for recommended settings; a dict of label: config_file
-test: initial_test_config.yaml
